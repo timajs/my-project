@@ -15,9 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          My first projecеее
+          My first tima
         </a>
       </header>
+      <div>
+    </div>
     </div>
   );
 }
