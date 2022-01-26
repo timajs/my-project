@@ -1,0 +1,27 @@
+.img{
+    width: 600px;
+    height: 350px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.img-block{
+    border: 2px solid black;
+    margin: 50px 150px;
+    padding: 70px;
+    border-radius: 20px;
+    position: relative;
+}
+.black-heart{
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+}
+.red-heart{
+    font-size: 53px;
+    color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+}

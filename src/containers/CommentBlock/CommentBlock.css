@@ -1,0 +1,49 @@
+.input-block{
+    /* margin: 0px 130px; */
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.post-coment{
+    font-size: 50px;
+    position: absolute;
+    top: 595px;
+}
+.input{
+    padding: 8px 25px;
+    margin: 0px 15px;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius:5px;
+}
+.comment-block{
+    width: 300px;
+    text-align: center;
+    padding: 0px 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.comment-text{
+    width: 320px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    padding: 40px 0px 20px 70px;
+    font-size:20px;
+    font-weight: 300;
+}
+.delete-icon{
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    /* margin-left: 60px; */
+}

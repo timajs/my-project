@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Image from './containers/ImgBlock/ImageBlock.jsx'
+import Comments from './containers/CommentBlock/CommentBlock';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My first tima
-        </a>
-      </header>
+       <h1>Instagram</h1>
+      <Image></Image>
+      <Comments></Comments>
       <div>
     </div>
     </div>
