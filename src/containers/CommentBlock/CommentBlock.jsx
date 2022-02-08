@@ -26,7 +26,7 @@ function Comments() {
     const handleInputChange = (event) => {
         setFirstInput(event.target.value)
     }
-    const handleInputChanges = (event) => {
+    const handleSecondInputChange = (event) => {
         setSecondInput(event.target.value)
     }
     const commentReducer = {
@@ -56,7 +56,7 @@ function Comments() {
                     <input type="text" 
                      className='input' 
                      placeholder='Message'
-                     onChange={handleInputChanges} />
+                     onChange={handleSecondInputChange} />
                     <button className='btn' onClick={handleAddComment}>Add Comment</button>
                 </div>
              }
